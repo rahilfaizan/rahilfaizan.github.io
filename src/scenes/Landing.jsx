@@ -59,7 +59,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-          Unlocking insights, empowering decisions: Your data superhero at work! With a passion for data exploration and an analytical mindset, I transform raw data into meaningful strategies. Let me be your guide in the data-driven world, unlocking the full potential of your data for success.
+          Transforming data into actionable strategies: With a passion for analysis and a knack for turning raw data into insights, I'm here to help you harness the power of your data for success.
           </p>
         </motion.div>
 
@@ -75,16 +75,24 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
-          >
-            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Let's talk.
-            </div>
-          </AnchorLink>
+
+    <div
+        className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+        onClick={() => setSelectedPage("contact")}
+        href="#contact"
+      >
+        <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
+        <a href="https://docs.google.com/document/d/1B5rUFlLN3HUgj3r4R_SRzHTnUN12sdM2NaEryyXSWic/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+Resume
+</a>
+          
+        </div>
+      </div>
+
+
+
         </motion.div>
+    
 
         <motion.div
           className="flex mt-5 justify-center md:justify-start"

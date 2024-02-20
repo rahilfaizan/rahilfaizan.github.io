@@ -59,11 +59,11 @@ const Projects = () => {
 
           {/* ROW 1 */}
           <Project
-            title="Taxi Fare Prediction"
+            title="Ollama Chat"
             color="gradient-rainblue" 
-            value="Predicting Taxi Fare Prices using XGBoost and Random Forest in R"
-            link="https://github.com/rahilfaizan/Taxi_Fare_pred"
-            ImageURL="https://images.unsplash.com/photo-1519566657253-e37fbcf36dfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2360&q=80"
+            value="Chatbot using Ollama-Llama2, langchain and streamlit"
+            link="https://github.com/rahilfaizan/Ollama-chat"
+            ImageURL="https://images.unsplash.com/photo-1680783954745-3249be59e527?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           />
 
           <Project
@@ -76,21 +76,33 @@ const Projects = () => {
 
           {/* ROW 2 */}
           <Project
-            title="Nike Us sales dashboard"
+            title="Hockey Game"
             color="gradient-rainblue" 
-            value="Enhancing Nike US Sales Data Insights with an Interactive Excel Dashboard Visualization"
-            link="https://github.com/rahilfaizan/nike_dashboard/tree/main"
-            ImageURL="https://user-images.githubusercontent.com/51293067/259884891-4c18beea-5c47-434e-a573-168029c28e6f.png"
+            value="Hockey game analysis in python"
+            link="https://github.com/rahilfaizan/Hockey"
+            ImageURL="https://images.unsplash.com/photo-1607863400985-8d3bc50e3fd6?q=80&w=2275&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           />
 
-          <Project title="Project 4" color="gradient-rainblue"  />
+<Project
+            title="KNN Package"
+            color="gradient-rainblue" 
+            value="Building a KNN Package from Scratch in R"
+            link="https://github.com/rahilfaizan/Knn_400"
+            ImageURL="https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjaGluZSUyMGxlYXJuaW5nfGVufDB8fDB8fHww"/>
 
-          <Project title="Project 5" color="gradient-rainblue"  />
+<Project
+            title="Taxi Fare Prediction"
+            color="gradient-rainblue" 
+            value="Predicting Taxi Fare Prices using XGBoost and Random Forest in R"
+            link="https://github.com/rahilfaizan/Taxi_Fare_pred"
+            ImageURL="https://images.unsplash.com/photo-1519566657253-e37fbcf36dfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2360&q=80"
+          />
 
           {/* ROW 3 */}
           <Project 
-            title="Project 6" 
+            title="Tableau Dashboards" 
             color="gradient-rainblue" 
+            link="https://public.tableau.com/app/profile/faizan.rahil.mohammed/vizzes"
             ImageURL="https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFyY2Vsb25hfGVufDB8fDB8fHwy&auto=format&fit=crop&w=600&q=60"
           />
         </div>

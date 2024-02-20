@@ -10,16 +10,16 @@ const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
   const skillsData = [
-    { skill: "Python", level: 4.5 },
-    { skill: "R", level: 4.5 },
-    { skill: "Tableau", level: 4 },
-    { skill: "SQL", level: 4 },
-    { skill: "Excel", level: 4 },
-    { skill: "ML", level: 3 },
-    { skill: "Math", level: 4 },
-    { skill: "Power BI", level: 3.5 },
+    { skill: "Programming Languages - Python, R, JS, C++, C", level: 4.5 },
+    { skill: "Data Visualization - Tableau, Power BI", level: 4.5 },
+    { skill: "Database Management - SQL, NoSql, Vector databases", level: 4 },
+    { skill: "Machine Learning/ Deep Learning", level: 4 },
+    { skill: "Mathematics", level: 4 },
     { skill: "Problem Solving", level: 4 },
+    { skill: "Other Data Analytics tools - Excel, Spss", level: 4 },
   ];
+  
+  
   skillsData.sort((a, b) => b.level - a.level);
 
   useEffect(() => {
